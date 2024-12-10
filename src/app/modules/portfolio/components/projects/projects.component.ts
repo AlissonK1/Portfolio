@@ -23,17 +23,32 @@ export class ProjectsComponent {
 
   public arrayProjects = signal<IProjects[]>([
     {
-      src: '/img/projects/vfull.png',
-      alt: 'Projeto Vida FullStack',
-      title: 'Vida FullStack',
-      width: '100px',
-      height: '51px',
+      src: '/img/projects/netflix.png',
+      alt: 'Projeto Clone Netflix',
+      title: 'Site Clone Netflix',
+      width: '35%',
+      height: '100%',
       description: 
-      '<p>Explore o fascinante mundo do desenvolvimento web no meu blog dedicado exclusivamente ao ecossistema Angular</p>',
+      '<p>Projeto clone do site da Netflix, criado para utilizar e aprimorar conceitos básicos de HTML, CSS, JS.</p>',
       links: [
         {
-          name: 'Conheça o Blog ',
-          href: 'https://vidafullstack.com.br',
+          name: 'Conheça o Projeto',
+          href: 'https://alissonk1.github.io/Netflix/',
+        }
+      ]
+    },
+    {
+      src: '/img/projects/faq-accordion.svg',
+      alt: 'Projeto FAQ Accordion',
+      title: 'Projeto FAQ Accordion',
+      width: '35%',
+      height: '50%',
+      description: 
+      '<p>Projeto de um FAQ utilizando Accordion, criado para utilizar e aprimorar conceitos básicos de HTML, CSS, JS.</p>',
+      links: [
+        {
+          name: 'Conheça o Projeto',
+          href: 'https://alissonk1.github.io/FAQ-Accordion-Card/',
         }
       ]
     }
