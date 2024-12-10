@@ -23,7 +23,7 @@ export class ProjectsComponent {
 
   public arrayProjects = signal<IProjects[]>([
     {
-      src: '/img/projects/netflix.png',
+      src: 'img/projects/netflix.png',
       alt: 'Projeto Clone Netflix',
       title: 'Site Clone Netflix',
       width: '35%',
@@ -38,7 +38,7 @@ export class ProjectsComponent {
       ]
     },
     {
-      src: '/img/projects/faq-accordion.svg',
+      src: 'img/projects/faq-accordion.svg',
       alt: 'Projeto FAQ Accordion',
       title: 'Projeto FAQ Accordion',
       width: '35%',

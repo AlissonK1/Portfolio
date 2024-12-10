@@ -49,7 +49,7 @@
         &[open]{
             summary{
                 &::after{
-                    content: url("/icons/chevron-up.svg");
+                    content: url("icons/chevron-up.svg");
                     margin-top: 5px;
                 }
 
@@ -60,7 +60,7 @@
         &:not([open]){
             summary{
                 &::after{
-                    content: url("/icons/chevron-down.svg");
+                    content: url("icons/chevron-down.svg");
                     margin-top: 5px;
                 }
             }
